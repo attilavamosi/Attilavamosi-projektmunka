@@ -37,3 +37,22 @@ p{
     color: black;
     font-weight: bold;
 }
+
+.container{
+    background-color: tan;
+    border-style: dashed;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+table{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+td{
+    border: 1px solid black ;
+    text-align: justify;
+    padding-left: 10px;
+}

@@ -14,6 +14,17 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 50px;
 }
 
+a{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover{
+    color: blue;
+}
+
 p{
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,12 +47,14 @@ p{
 .display-6{
     color: black;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .container{
     background-color: tan;
     border-style: dashed;
     border-radius: 50px;
+    margin: auto;
     margin-top: 20px;
     padding: 20px;
 }
@@ -55,4 +68,15 @@ td{
     border: 1px solid black ;
     text-align: justify;
     padding-left: 10px;
+}
+
+.forras{
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.carousel{
+    border: 5px solid black;
 }
